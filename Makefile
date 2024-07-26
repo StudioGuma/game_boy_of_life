@@ -47,4 +47,4 @@ prepare:
 
 clean:
 #	rd /s /q $(OBJDIR)
-	rm -rf  $(OBJDIR)
+	rm -rf $(OBJDIR)
