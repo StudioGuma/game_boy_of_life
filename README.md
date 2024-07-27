@@ -8,4 +8,4 @@ Building requires GBDK 2020 and Make. Make sure to edit the makefile based on yo
 
 Assets licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-ROM size: 32.8 kB
+ROM size: 32 KiB
