@@ -1,6 +1,6 @@
 # Game (Boy) of Life
 
-Game Boy port of John Conway’s famous cellular automaton, the [Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life).
+Game Boy port of John Conway's famous cellular automaton, the [Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life).
 
 Made with [GBDK 2020](https://github.com/gbdk-2020/gbdk-2020), [GBTD](https://github.com/gbdk-2020/GBTD_GBMB), and [hUGETracker](https://github.com/SuperDisk/hUGETracker).
 
