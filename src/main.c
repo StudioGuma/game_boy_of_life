@@ -190,6 +190,8 @@ void main(void)
 
 	hUGE_init(&MUS_LIFE);
 
+	add_VBL(hUGE_dosound);
+
 	SHOW_BKG;
 
 	for (;;) { // Forever
@@ -203,15 +205,11 @@ void main(void)
 				set_bkg_tile_xy(select_x, select_y, board[select_x][select_y].state);
 			else
 				set_bkg_tile_xy(select_x, select_y, board[select_x][select_y].state + 0b10);
-			
-			rAUDTERM ^= 0b11111111; // Toggle sound
 		}
 
 		if (automate) {
 			step();
 		} else {
-			hUGE_dosound();
-
 			if (joy & J_RIGHT || joy & J_LEFT || joy & J_UP || joy & J_DOWN) {
 				if (!(joy_prev & J_RIGHT || joy_prev & J_LEFT || joy_prev & J_UP || joy_prev & J_DOWN))
 					timer = 0;
